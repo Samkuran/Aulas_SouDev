@@ -1,0 +1,7 @@
+Existem situações que ocorrem no github (Quem altera o repositorio / quantidade branchs / autor do repositório): 
+
+1 - Alone || 1 branch || proprio (uso normalmente os comandos aprendidos pois todas as branchs sao minhas e eu mando na porra toda)
+2 - Alone || n-branch || terceiro ==> git clone(crio no meu local) / fork (clona o repositorio na minha conta github)
+3 - Grupo || 1 branch || próprio (git pull - pega somente da branch q eu estou mexendo)
+4 - Grupo || n-branchs || proprio (git fetch - pega toooodas as alterações das n branchs ao mesmo tempo)
+5 - Grupo || n-branchs || terceiros ( git clone primeiro --> e usa o pull antes de submeter pra fazer a atualizaçao da branch antes )

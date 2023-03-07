@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+</head>
+<body class="container bg-dark text-white">
+    <h1 class="mt-4">Endereço</h1>
+    <hr>
+
+    <section class="row mt-5">
+        <div class="col">
+            <form action="" class="form">
+                <label for="">CEP</label>
+                <input onblur="buscarCEP()" type="text" id="cep" placeholder="Digite aqui" class="form-control mb-3">
+
+                <label for="">Logradouro</label>
+                <input type="text" id="logradouro" placeholder="Digite aqui" class="form-control mb-3">
+
+                <label for="">Numero</label>
+                <input type="text" id="Numero" placeholder="Digite aqui" class="form-control mb-3">
+
+                <label for="">Bairro</label>
+                <input type="text" id="bairro" placeholder="Digite aqui" class="form-control mb-3">
+
+                <label for="">Cidade</label>
+                <input type="text" id="cidade" placeholder="Digite aqui" class="form-control mb-3">
+
+                <label for="">Estado</label>
+                <input type="text" id="estado" placeholder="Digite aqui" class="form-control mb-3">
+
+                <button class="btn btn-light w-100 mt-2">Enviar</button>
+            </form>
+
+        </div>
+        <div class="col text-center">
+            <img class="rounded bg-white" style="width: 85%" src="img/undraw_road_sign_re_3kc3.svg" alt="">
+        </div>
+    </section>
+
+
+
+    <script src="eventos.js"></script>
+</body>
+</html>
