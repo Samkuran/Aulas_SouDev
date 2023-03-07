@@ -1,0 +1,42 @@
+{
+  "frutas": [
+    {
+      "id": 1,
+      "nome": "banana",
+      "quantidade": 12
+    },
+    {
+      "id": 2,
+      "nome": "uva",
+      "quantidade": 24
+    },
+    {
+      "id": 3,
+      "nome": "laranja",
+      "quantidade": 15
+    }
+  ],
+  "alunos": [
+    {
+      "nome": "Alessandro ",
+      "email": "ale@gmail.com",
+      "telefone": "85 996928836",
+      "cidade": "Fortaleza",
+      "id": 2
+    },
+    {
+      "nome": "Samantha",
+      "email": "samthvet@hotmail.com",
+      "telefone": "859966985",
+      "cidade": "Fortaleza",
+      "id": 3
+    },
+    {
+      "nome": "Samantha",
+      "email": "ale@gmail.com",
+      "telefone": "85 996928836",
+      "cidade": "Fortaleza",
+      "id": 4
+    }
+  ]
+}

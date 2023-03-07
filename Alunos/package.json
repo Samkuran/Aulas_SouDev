@@ -1,0 +1,15 @@
+{
+  "name": "gleidson",
+  "version": "1.0.0",
+  "description": "CRUD de alunos",
+  "main": "eventos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samantha",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3"
+  }
+}
