@@ -1,0 +1,33 @@
+Estruturas de dados: 
+    -simples (variaveis e compostas) 
+    -composta 
+
+Tipos:
+    String (cadeia de caracteres) - sempre usa ""
+    integer (numeros inteiros - int 
+             numeros reais - float) - sempre coloca sem "" e se for float, utiliza ponto e nao virgula
+    Boolean (valores - False or true)
+                                                                                                                                                                                                                            
+
+Estruturas de controle:
+    -Estrutura sequencial
+    -Estruturas de decisão
+        simples (IF)
+        composta (IF / ELSE)
+        encadeada (IF / ELSE / IF) 
+        multipla escolha (SWITCH)
+    -Estruturas de repetição
+    
+
+Blocos reutilizáveis de código (funções)
+
+
+simbolo de = significa associação/atribuição 
+            == elementos iguais entre si 
+            != elementos diferentes 
+            && conjução de condições (soma as condições)
+            || ou (uma conjução de uma condição ou outra)
+
+            > maior que 
+            
+
