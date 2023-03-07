@@ -1,0 +1,27 @@
+{
+    "frutas": [
+       {"id": 1,
+        "nome": "banana",
+        "quantidade": 12
+    },
+    {
+        "id": 2,
+        "nome": "uva",
+        "quantidade": 24
+    },
+    {
+        "id": 3,
+        "nome": "laranja",
+        "quantidade": 15
+    }
+    ],
+
+    "alunos": [
+        {
+            "nome": "Gleidon Teixeira",
+            "email": "gleidson@gmail.com",
+            "telefone": "(11) 99999-9999",
+            "cidade": "Fortaleza"
+        }
+    ]
+}
