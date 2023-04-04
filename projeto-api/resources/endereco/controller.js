@@ -1,5 +1,5 @@
 const db = require("../../connection/database");
-const table = "tb_marca"; 
+const table = "tb_endereco"; 
 
 async function listAll(){
     let lista = await db.execute(`
@@ -18,13 +18,15 @@ async function listOne(id){
 async function create (corpo){
 
   let sql = await db.execute(`
-      INSERT INTO ${table} (nome) VALUES ('${corpo.nome}');
+      INSERT INTO ${table} (cep, logradouro, numero, complemento, bairro, cidade, estado) VALUES ('${corpo.cep}', 
+      '${corpo.logradouro}', '${corpo.numero}', '${corpo.complemento}', '${corpo.bairro}', '${corpo.cidade}', 
+      '${corpo.estado}' );
   `);
-  let marcas = await db.execute(`
+  let endereco = await db.execute(`
       SELECT * FROM ${table} WHERE id = ${sql.insertId};
   `)
 
-  return JSON.stringify(marcas[0]);
+  return JSON.stringify(endereco[0]);
 }
 
 async function deletar (id){
@@ -33,26 +35,9 @@ async function deletar (id){
   `);
 }
 
-async function edit(id, data){
-  let query = "";
-  if(data.nome){
-      query = `nome = '${data.nome}'`;
-  }
-  
-  await db.execute(`
-      UPDATE ${table} SET ${query} WHERE id = ${id};
-  `);
-  let lista = await db.execute(`
-      SELECT * FROM ${table} WHERE id = ${id};
-  `);
-  return JSON.stringify(lista[0]);
-}
-
-
 module.exports ={
   listAll,
   listOne,
   create,
-  deletar,
-  edit
+  deletar
 }

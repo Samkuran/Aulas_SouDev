@@ -58,7 +58,7 @@ app.patch("/banners/:id", async (req, res) => {
 app.delete("/banners/:id", async (req, res) => {
   await database.execute(`DELETE FROM tb_banner WHERE id='${req.params.id}'`);
 
-  res.Status(204);
+  res.status(204);
 });
 
 module.exports = app;
